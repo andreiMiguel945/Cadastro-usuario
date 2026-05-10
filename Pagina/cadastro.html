@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuários</title>
+</head>
+<body link="black">
+    <center>
+        <font face="Arial" size="5">
+            <table bgcolor="#ccc" cellpadding="10" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                            <a href="cadastro.html"><font color="white">Cadastro</font></a> &nbsp;
+                            <a href="lista.html"><font color="black">lista</font></a> &nbsp;
+                            <a href="contato.html"><font color="black">contato</font></a> &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </font>
+               <h1>Formulário de Cadastro</h1>  
+        <form action="#" method="post">
+                <div>
+                    <label for="nome"><b>Nome</b></label>
+                    <input type="text" id="nome" name="nome" placeholder="Insira o seu nome"><br><br>
+                </div>
+            
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" name="email" placeholder="Insira o seu email"><br><br>
+                </div>
+            
+                <div>
+                    <label for="senha"><b>Senha</b></label>
+                    <input type="password" name="senha" placeholder="Insira a sua senha"><br><br>
+                </div>
+
+                <div>
+                    <label for="Sexo"><b>Sexo</b></label>
+                    <input type="radio" name="sexo" value="masculino">Masculino
+                    <input type="radio" name="sexo" value="feminino">Feminino<br><br>
+                </div>
+
+                <div>
+                    <label for="interesses"><b>Interesses</b></label>
+                    <input type="checkbox" name="interesses" value="esportes">Design
+                    <input type="checkbox" name="interesses" value="música">IA
+                    <input type="checkbox" name="interesses" value="livros">Banco de dados
+                    <input type="checkbox" name="interesses" value="programação">Programação<br><br>
+                </div>
+
+                <div>
+                    <label for="data_nascimento"><b>Data de Nascimento</b></label>
+                    <input type="date" name="data_nascimento"><br><br>
+                </div>
+
+                <div>
+                    <label for="cor"><b>Raça</b></label>
+                    <select name="cor">
+                        <option value="branco">Branco</option>
+                        <option value="preto">Preto</option>
+                        <option value="pardo">Pardo</option>
+                        <option value="amarelo">Amarelo</option>
+                        <option value="indigena">Indígena</option>
+                    </select><br><br>
+                </div>
+                <button type="submit">Enviar</button>
+            
+        </form>
+    </center>
+</body>
+</html>
